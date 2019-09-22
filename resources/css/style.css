@@ -24,7 +24,7 @@ html{
 }
 
 .bootstrap-img {
-    property: relative;
-    margin-left: auto, 0;
+    position: relative;
+    margin-left: auto 0;
     
 }
