@@ -1,3 +1,8 @@
+html{
+    font-size: 18px;
+}
+
+
 .display-4 {
     font-family: 'Annie Use Your Telescope', cursive; 
 }
@@ -16,4 +21,10 @@
 .slutman-img {
     background: #777;
     color: #777;
+}
+
+.bootstrap-img {
+    property: relative;
+    margin-left: auto, 0;
+    
 }
