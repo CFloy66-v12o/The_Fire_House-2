@@ -1,6 +1,14 @@
-// var firstName = prompt("Please enter your first name.");
-// var firstChar = firstName.slice(0,1).toUpperCase();
-// var restOfChar = firstName.slice(1,20).toLowerCase();
-// restOfChar = restOfChar.toLowerCase();
-// alert("Hello " + firstChar + restOfChar + ", have a look around, then maybe haed on over and join!");
-// getElementByClass('btn')
+console.log('starting main.js, right on up......');
+
+const fs = require('fs');
+const os = require('os');
+// const notes = require('./notes.js');//relative path to notes file
+
+var user = os.userInfo();
+
+fs.appendFile('greetings.txt', `Hello  ${user.username} !`, function (err) {
+    if(err) {
+        console.log('Unable to write to file');
+   
+    }
+});

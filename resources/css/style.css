@@ -29,3 +29,8 @@ html{
     margin-left: auto 0;
     
 }
+
+#myCarousel {
+    margin: 11px auto;
+    z-index: 1;
+}
